@@ -1,0 +1,176 @@
+#logo{
+max-width: 200px;
+max-height: 100px;
+margin-top: 15px;
+margin-bottom: 0%;
+} 
+header{
+    border-bottom-style:solid;
+    border-bottom-width: 2px;
+    margin:0;
+    padding:0;
+    background-color: white;
+    width: 100%;
+    min-width:1000px;
+    display: block;
+    
+}
+body{
+    background-color: black;
+}
+.info{
+    float: right; 
+}
+.info a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 5px;
+    margin-top: 35px;
+    margin-right: 15px;
+    }
+    .slike {
+        position: relative;
+        width: 50%;
+      }
+      
+      .slika{
+        display: block;
+        width: 350px;
+        height: 450px;
+      }
+      .slikica{
+        display: block;
+        width: 350px;
+        height: 450px;
+      }
+      .jotaro{
+        display: block;
+        width: 350px;
+        height: 450px;
+      }
+      .jonathan{
+        display: block;
+        width: 350px;
+        height: 450px;
+      }
+      .joseph{
+        display: block;
+        width: 350px;
+        height: 450px;
+      }
+      .josuke{
+        display: block;
+        width: 350px;
+        height: 450px;
+      }
+      .jojolino{
+        display: block;
+        width: 350px;
+        height: 450px;
+      }
+      .jolyne{
+        display: block;
+        width: 350px;
+        height: 450px;
+      }
+      .logo{
+      height: 450px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width:50%;}
+      .row {
+        display: flex;
+      }
+      .column {
+        flex: 33.33%;
+        padding: 5px;
+      }
+      .overlay {
+        position: absolute;
+        top: 5px;
+        bottom: 0;
+        left: 5px;
+        right: 0;
+        height: 450px;
+        width: 350px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: whitesmoke;
+      }
+      .over{
+        position: absolute;
+        top: 5px;
+        bottom: 0;
+        left: 5px;
+        right: 0;
+        height: 450px;
+        width: 350px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: whitesmoke;
+      }
+      .druga{
+        position: relative;
+        width: 50%;
+      }
+      
+      .slike:hover .overlay {
+        opacity: 0.9;
+      }
+      .druga:hover .over{
+        opacity:0.9;
+      }
+      
+      .text {
+        color: black;
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        position: absolute;
+        top: 18%;
+        left: 25%;
+        right: 25%;
+        bottom:20%;
+        text-align: left;
+      }
+      .tekst{
+        color: black;
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        position: absolute;
+        top: 18%;
+        left: 25%;
+        right: 25%;
+        bottom:20%;
+        text-align: left;
+      }
+      .mini{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .duzi{
+        height: 200px;
+        width: 500px;
+      }
+      .kr1{
+        width: 200px;
+        height: 20px;
+      }
+      .kr2{
+        height: 20px;
+        width: 200px;
+      }
+      .sub{
+        width:200px;
+        height: 30px;
+      }
+    .poz{
+        justify-content: center;
+        display: flex;
+    }
